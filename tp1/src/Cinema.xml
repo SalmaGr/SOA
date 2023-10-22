@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Cinéma xmlns:tns="http://www.example.org/cinema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/cinema cinema.xsd ">
+  <tns:Film id="Lb78" type="comédie">
+    <tns:titre>Les Bronzes</tns:titre>
+    <tns:année>1978</tns:année>
+    <tns:réalisateur>Patrice Leconte</tns:réalisateur>
+  </tns:Film>
+  <tns:Producteur>
+    <tns:nom>Daniel Toscan du Plantier</tns:nom>
+    <tns:Film id="Lb78" type="comédie">
+      <tns:titre>Les Bronzes</tns:titre>
+      <tns:année>1978</tns:année>
+      <tns:réalisateur>Patrice Leconte</tns:réalisateur>
+    </tns:Film>
+  </tns:Producteur>
+  
+</tns:Cinéma>
