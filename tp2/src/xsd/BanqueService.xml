@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BanqueService>
+  <conversion>
+    <montant>0.0</montant>
+  </conversion>
+  <getComptes>
+    <code>0</code>
+    <solde>1000</solde>
+    <Date>2003-02-15</Date>
+  </getComptes>
+  <getComptes>
+    <code>1</code>
+    <solde>5000</solde>
+    <Date>2001-03-13</Date>
+  </getComptes>
+   <getComptes>
+    <code>2</code>
+    <solde>5000</solde>
+    <Date>1992-04-25</Date>
+   </getComptes>
+   <getComptes>
+    <code>3</code>
+    <solde>6000.5</solde>
+    <Date>1996-06-05</Date>
+  </getComptes>
+</BanqueService>
