@@ -3,28 +3,32 @@
 	targetNamespace="http://www.example.org/ServiceBanque"
 	xmlns:tns="http://www.example.org/ServiceBanque"
 	elementFormDefault="qualified">
-	<!-- tjihdtghixjtfogjhic -->
+	<!--  -->
 	<element name="BanqueService" type="tns:BanqueServiceType">
 	</element>
+	<complexType name="BanqueServiceType">
+		<sequence>
+			<element name="conversion" type="tns:conversiontype">
+			</element>
+			<element name="getCompte" type="tns:compteType">
+			</element>
+			<element name="getComptes" type="tns:compteType"
+				minOccurs="1" maxOccurs="unbounded">
+				<!-- minOccurs="1" maxOccurs="unbounded" (plusieurs compte ( 1 ou plus )) -->
+			</element>
+		</sequence>
+	</complexType>
 	<complexType name="conversiontype">
 		<sequence>
 			<element name="montant" type="double"></element>
 		</sequence>
 	</complexType>
-	
+
 	<complexType name="compteType">
 		<sequence>
 			<element name="code" type="int"></element>
 			<element name="solde" type="double"></element>
 			<element name="Date" type="date"></element>
-		</sequence>
-	</complexType>
-	
-	<complexType name="BanqueServiceType">
-		<sequence>
-			<element name="conversion" type="tns:conversiontype"> </element>
-			<element name="getCompte" type="tns:compteType"> </element>
-			<element name="getComptes" type="tns:compteType" minOccurs="1" maxOccurs="unbounded"> </element>
 		</sequence>
 	</complexType>
 </schema>
