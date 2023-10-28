@@ -22,7 +22,6 @@
 					des cellules de données */
 					}
 				</style>
-
 			</head>
 			<body>
 				<h1>Liste des comptes</h1>
